@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             x:Class="Skia_Sharp_Prueba.Controls.SimpleCircle">
+  <ContentView.Content>
+      <StackLayout>
+          <Label Text="Hello Xamarin.Forms!" />
+            <skia:SKCanvasView PaintSurface="OnCanvasViewPaintSurface" WidthRequest="250" HeightRequest="250">
+                <skia:SKCanvasView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCanvasViewTapped" />
+                </skia:SKCanvasView.GestureRecognizers>
+            </skia:SKCanvasView>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

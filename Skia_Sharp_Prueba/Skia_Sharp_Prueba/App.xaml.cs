@@ -11,7 +11,10 @@ namespace Skia_Sharp_Prueba
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            //MainPage = new Color_SkiaSharp();
+            //MainPage = new Animacion();
+            MainPage = new Animacion2();
         }
 
         protected override void OnStart()

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
+
 namespace Skia_Sharp_Prueba
 {
     public partial class MainPage : ContentPage
